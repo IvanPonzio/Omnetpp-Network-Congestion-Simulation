@@ -6,14 +6,14 @@
 - Armando Carral
 
 ## Description
-In this project, we implemented a conflict resolution protocol for network congestion using discrete event simulation.
+This repository contains the implementation of a conflict resolution protocol for network congestion using discrete event simulation in Omnet++.
 
-We developed a congestion control algorithm based on TCP Reno to prevent data loss due to buffer saturation in the network. The algorithm includes a congestion window variable and a threshold that dynamically adjusts based on the network load. Additionally, we established bidirectional communication between nodes to control the flow of data and reduce the transmission rate in case of congestion at the receiver.
+The project focuses on developing a congestion control algorithm based on TCP Reno to prevent data loss caused by buffer saturation in the network. The algorithm incorporates a congestion window variable and a dynamically adjusted threshold based on the network load. Bidirectional communication between nodes is established to control data flow and reduce transmission rates during congestion at the receiver.
 
-The main objective was to investigate how these protocols can improve network performance in terms of congestion reduction and data loss prevention. To achieve this, we conducted experiments using simulations to evaluate the performance of the implemented algorithm.
+The main objective of this project is to investigate the effectiveness of these protocols in improving network performance by reducing congestion and preventing data loss. Simulations are conducted to evaluate the performance of the implemented algorithm.
 
 ## Results
-We collected data on network congestion, data loss, and flow performance through the simulations conducted. The results showed a significant improvement in congestion reduction and data loss reduction when using the implemented conflict resolution protocol.
+Data on network congestion, data loss, and flow performance was collected through simulations. The results demonstrate a significant improvement in congestion reduction and data loss prevention with the implemented conflict resolution protocol.
 
 ## References
 Tanenbaum, A. S., & Wetherall, D. J. (2011). Computer Networks (5th ed.). Pearson Education.
